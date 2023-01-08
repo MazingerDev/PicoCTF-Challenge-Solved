@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dir=${PWD##*/}
+dir=$(basename "$PWD" |sed 's/_DONE//' |sed  's/_UNSOLVE//')
 
 Help()
 {
