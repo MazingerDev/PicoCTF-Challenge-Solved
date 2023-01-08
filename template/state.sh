@@ -1,6 +1,9 @@
 #!/bin/bash
 
+old=${PWD##*/}
 dir=$(basename "$PWD" |sed 's/_DONE//' |sed  's/_UNSOLVE//')
+
+mv $old $dir
 
 Help()
 {
