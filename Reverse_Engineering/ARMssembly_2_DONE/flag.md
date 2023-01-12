@@ -1,0 +1,1 @@
+flag is the input 2403814618 * 3 in hex >> picoCTF{add5e68e}
